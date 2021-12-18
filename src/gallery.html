@@ -6,53 +6,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        grid-gap: 20px;
-        align-items: stretch;
-      }
-      .grid img {
-        border: 1px solid #ccc;
-        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-        max-width: 100%;
-        height: 345px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="foo.css" />
   </head>
+  <header class="header">
+    <nav>
+      <ul role="list" class="header-nav nav-links">
+        <li><a href="foo.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#">Nav 2</a></li>
+        <li><a href="#">Nav 3</a></li>
+      </ul>
+    </nav>
+    <a href="/" class="header-logo">
+      <!-- <img src="/images/logo.png" alt="Learn Enough"/> -->
+    </a>
+  </header>
   <body>
     <h2>Books of 2021</h2>
     <div class="grid">
       <a href="#"
         ><img
-          src="assets/images/all-the-light-we-cannot-see-simon-263x400.jpg"
+          src="images/all-the-light-we-cannot-see-simon-263x400.jpg"
           alt="All the light we cannot see book cover"
       /></a>
       <a href="#"
         ><img
-          src="assets/images/anxious-people-simon_258x400.jpg"
+          src="images/anxious-people-simon_258x400.jpg"
           alt="Anxious people book cover"
       /></a>
       <a href="#"
         ><img
-          src="assets/images/before-we-were-yours-goodreads-316x475.jpg"
+          src="images/before-we-were-yours-goodreads-316x475.jpg"
           alt="Before we were yours book cover"
       /></a>
       <a href="#"
         ><img
-          src="assets/images/boys-in-the-boat-penguin-293x450.jpg"
+          src="images/boys-in-the-boat-penguin-293x450.jpg"
           alt="Boys in the boat book cover"
       /></a>
       <a href="#"
         ><img
-          src="assets/images/cartwheel-goodreads-318x474.jpg"
+          src="images/cartwheel-goodreads-318x474.jpg"
           alt="Cartwheel book cover"
       /></a>
       <a href="#"
-        ><img
-          src="assets/images/celine-knopf-294x450.jpg"
-          alt="Celine book cover"
+        ><img src="images/celine-knopf-294x450.jpg" alt="Celine book cover"
       /></a>
     </div>
     <h2>Books of 2020</h2>
@@ -62,4 +60,18 @@
     <h2>Books of 2016</h2>
     <h2>Books of 2015</h2>
   </body>
+  <footer class="footer">
+    <a class="footer-logo" href="/">
+      <!-- <img src="/images/logo.png" alt="Learn Enough" /> -->
+    </a>
+    <nav>
+      <ul role="list" class="footer-nav nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="#">Nav 2</a></li>
+        <li><a href="#">Nav 3</a></li>
+      </ul>
+    </nav>
+    <h3>Learn Enough <span>to Be Dangerous</span></h3>
+  </footer>
 </html>
